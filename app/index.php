@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Crisp Solutions</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 		<nav>
@@ -11,7 +11,7 @@
 				<li class="nav-dropdown">
 					<a href="javascript:void(0)" class="dropbtn">Who We Are</a>
 					<div class="nav-dropdown-content">
-						<a href="#">Knowledge & Expertise</a>
+						<a href="#">Knowledge &amp; Expertise</a>
 						<a href="#">Communication and Follow-Through</a>
 						<a href="#">Partnership</a>
 					</div>
@@ -24,9 +24,9 @@
 	<section>
 
 		<div class="home-section">
-			<img src="assets/img/header-mac.png" class="home-section-img" title="Apple Products">
+			<img src="img/header-mac.png" class="home-section-img" title="Apple Products">
 			<div class="home-section-info">
-				<img src="assets/img/crisp-logo.png" class="crispSolutions-logo" title="Crisp Solutions" alt="Crisp Solutions">
+				<img src="img/crisp-logo.png" class="crispSolutions-logo" title="Crisp Solutions" alt="Crisp Solutions">
 				<div class="lead"><p>When it just</p><p> needs to work.</p></div>
 			</div>
 
@@ -106,7 +106,7 @@
 			<p class="partner-website">Partner Website <span><img src=""></span></p>
 		</div>
 	</div>
-
+	<section>
 	<div class="contact-section">
 			<h2>Get In Touch</h2>
 			<p>
@@ -162,6 +162,6 @@
 				</div>
 			</div>
 	</div>
-
+</section>
 </body>
 </html>
