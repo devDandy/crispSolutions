@@ -33,45 +33,37 @@
 		</div>
 	</section>
 
-	<section>
-		<div class="about-section about-section-knowledge">
-			<div class="section-overlay">
+	<section class="section-overlay about-section-knowledge">
+		<div class="about-section ">
 				<h2>Knowledge and Expertise</h2>
 				<p class="about-section-descriptions">
 					We are the only Apple Macintosh consultants in the Des Moines Metro area fully certified by Apple. A proud member of the Apple Consultants Network, with the coveted Mobile Technology competency, we can support all of your Apple Macintosh and iOS devices with ease.
 				</p>
 				<img src="" class="apple-consultants-network-logo" title="Apple Consultants Network">
-			</div>
 		</div>
 	</section>
 
-	<section>
-		<div class="about-section about-section-communication">
-			<div class="section-overlay">
-				<h2>Communication </h2><h2>and Follow-Through</h2>
+	<section class="section-overlay about-section-communication">
+		<div class="about-section ">
+				<h2>Communication <br>and Follow-Through</h2>
 				<p class="about-section-descriptions">
 					We get it, we are a small business too. At Crisp Solutions we make sure you understand what we are doing and when we do it. We're not your typical IT guys, we can actually communicate in a fashion you can understand.			
 				</p>
-			</div>
 		</div>
 	</section>
 
-	<section>
-		<div class="about-section about-section-partnership">
-			<div class="section-overlay">
+	<section class="section-overlay about-section-partnership">
+		<div class="about-section ">
 				<h2>Partnership</h2>
 				<p class="about-section-descriptions">
 					We strive to be your first call every-time. Our goal isn't just to be your vendor but a trusted ally and a true partner in your business. We all want to do what we are good at, so let us take care of what we do best, so you can do what you do best!
 				</p>
-			</div>
 		</div>
 	</section>
 
-	<section>
+	<section class="section-overlay">
 		<div class="what-we-do-section">
-			<div class="section-overlay">
 				<h2>What We Do</h2>
-				<div class="what-we-do-section-overlay">
 					<img src="" title="Apple Products" alt="Apple Products">
 					<ul>
 						<li>New Device Setup & Installation</li>
@@ -81,8 +73,6 @@
 						<li>Networking, Firewalls, and WiFi</li>
 						<li>Virtual CIO</li>
 					</ul>
-				</div>
-			</div>
 		</div>
 	</section>
 
@@ -118,7 +108,6 @@
 	</div>
 
 	<div class="contact-section">
-		<div class="section-overlay">
 			<h2>Get In Touch</h2>
 			<p>
 			Need Help? Go Questions? Give us a call, or drop us a line. We promise we will get back to you in less than a business day.
@@ -172,7 +161,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
 	</div>
 
 </body>
