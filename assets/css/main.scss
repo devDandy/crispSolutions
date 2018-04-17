@@ -131,6 +131,18 @@ $secondary-color: white;
 
 /* Who We Are */
 
+	.about-section {
+		position: relative;
+		color: white;
+		z-index: 2;
+		text-align: center;
+	}
+
+	.about-section-descriptions {
+		font-family: $secondary-font;
+		font-size: 36px;
+	}
+
 	.about-section-knowledge {
 		background-image: url("../img/about-knowledge.jpg");
 		background-size: cover;
@@ -149,27 +161,18 @@ $secondary-color: white;
 	}
 
 
-	.about-section {
+
+
+/* What We Do */
+
+	.what-we-do-section {
 		position: relative;
 		color: white;
 		z-index: 2;
-		text-align: center;
-
-
+		h2 {
+			text-align: center;
+		}
 	}
-
-	.about-section-descriptions {
-		font-family: $secondary-font;
-		font-size: 36px;
-	}
-
-/* Who We Are - Knowledge and Expertise */
-
-/* Who We Are - Communication and Follow-Through */
-
-/* Who We Are - Partnership */
-
-/* What We Do */
 
 /* Partners & Preferred Vendors */
 
