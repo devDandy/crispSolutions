@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo:700");
+@font-face {
+  font-family: 'Inter UI';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-UI/Inter-UI-Regular.woff2") format("woff2"), url("../fonts/inter-UI/Inter-UI-Regular.woff") format("woff"); }
+
+/* General */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  padding: 0; }
+
+section {
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 60px;
+  padding-left: 120px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+h2 {
+  font-family: "Archivo", sans-serif;
+  font-size: 125px; }
+
+.lead {
+  font-family: "Inter UI";
+  font-size: 64px;
+  color: #17324F; }
+
+/* Desktop Navigation */
+.desktop-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #17324F; }
+  .desktop-menu li {
+    float: left; }
+  .desktop-menu li a, .desktop-menu .dropbtn {
+    display: inline-block;
+    padding: 14px 16px;
+    font-family: "Inter UI";
+    color: white;
+    text-align: center;
+    text-decoration: none; }
+  .desktop-menu li a:hover, .desktop-menu .nav-dropdown:hover .dropbtn {
+    background: red; }
+  .desktop-menu li.nav-dropdown {
+    display: inline-block; }
+  .desktop-menu .nav-dropdown-content {
+    display: none;
+    position: absolute;
+    background: yellow;
+    min-width: 160px;
+    z-index: 1; }
+    .desktop-menu .nav-dropdown-content a {
+      display: block;
+      text-align: left;
+      padding: 12px 16px;
+      color: black;
+      text-decoration: none; }
+      .desktop-menu .nav-dropdown-content a:hover {
+        background: orange; }
+  .desktop-menu .nav-dropdown:hover .nav-dropdown-content {
+    display: block; }
+
+/* Home Section */
+.home-section .home-section-info {
+  display: inline-block;
+  padding-left: 25px;
+  vertical-align: 60px; }
+  .home-section .home-section-info .lead {
+    padding-top: 25px; }
+    .home-section .home-section-info .lead p {
+      margin: 0;
+      line-height: 1.3; }
+
+/* Who We Are */
+/* 	.about-section-descriptions {
+		font-family: $secondary-font;
+		font-size: 36px;
+	}
+ */
+/* Who We Are - Knowledge and Expertise */
+/* Who We Are - Communication and Follow-Through */
+/* Who We Are - Partnership */
+/* What We Do */
+/* Partners & Preferred Vendors */
+/* Get In Touch */
