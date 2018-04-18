@@ -82,7 +82,7 @@
 
 
 
-	<div class="partners-section">
+	<div class="  partners-section">
 
 		<h2>Partners &amp; Preferred Vendors</h2>
 		<div class="partner-container">
@@ -117,61 +117,59 @@
 
 	</div>
 	<section class=" contact-section">
-	<div class="contact-section-info ">
+	<div class="contact-section-info section-overlay ">
 			<h2>Get In Touch</h2>
 			<p>
 			Need Help? Go Questions? Give us a call, or drop us a line. We promise we will get back to you in less than a business day.
 			</p>
-			<!---<div class="contact-container">
-				<div class="contact-form-container">
-					<form>
-						<label for="business">Business:</label>
-						<input type="text" name="inBusiness">
-
-						<label for="name">Full Name:</label>
-						<input type="text" name="inFullName">
-
-						<label for="email">Email:</label>
-						<input type="text" name="inEmail">
-
-						<label for="phone">Phone:</label>
-						<input type="text" name="inPhone">
-
-						<label for="message">Message:</label>
-						<input type="text" name="inPhone">
-
-						<input type="submit" name="submitForm" value="Submit">
-						<input type="reset" name="resetForm" value="Reset">
-					</form>
-				</div>
-				<div class="contact-info-container">
-					<div class="contact-info-address">
-						<h4>Address:</h4>
-						<p class="contact-info-address-line">3123 Holcomb Ave</p>
-						<p class="contact-info-address-line">Des Moines, IA 50310</p>
-						<p class="contact-info-address-line">USA</p>
-					</div>
-					<div class="contact-info-email">
-						<h4>Email:</h4>
-						<p>info@crispsolutions.net</p>
-					</div>
-					<div class="contact-info-phone">
-						<h4>Phone:</h4>
-						<p>(515) 423-0160</p>
-					</div>
-					<div class="contact-info-social">
-						<h4>Social:</h4>
-						<img src="" alt="Facebook" title="Facebook">
-						<img src="" alt="LinkedIn" title="LinkedIn">
-					</div>
-
-					<div class="request-buttons">
-						<button>Request A Quote</button>
-						<button>Request A Booking</button>
-					</div>
-				</div>
-			</div> -->
 	</div>
+
+
+			<div class="contact-container">
+				<div class="row">
+					<div class="col-12">
+						<div class="row">
+							<div class="col-12">
+								<div class="col-8">
+									<form>
+										<div>
+											<label for="Business">Business</label>
+											<input type="text" name="contactInBusiness">
+										</div>
+										<div>
+											<label for="Full Name">Full Name</label>
+											<input type="text" name="contactInName">
+										</div>
+										<div class="row">
+											<div class="col-6">
+												<label for="Email">Email</label>
+												<input type="text" name="contactInEmail">
+											</div>
+											<div class="col-6">
+												<label for="Phone">Phone</label>
+												<input type="text" name="contactInPhone">
+											</div>
+										</div>
+										<div>
+											<label for="Contact Message">Message</label>
+										</div>
+										<textarea name="contactInPhone"></textarea>
+									</form>
+								</div>
+								<div class="col-4">
+									<div class="testete">
+										hello world
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div> 
+
+
+
 </section>
 
 	<script src="js/micromodal.min.js"></script>
