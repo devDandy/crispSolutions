@@ -61,18 +61,20 @@
 		</div>
 	</section>
 
-	<section class="section-overlay">
-		<div class="what-we-do-section">
+	<section class="section-overlay what-we-do-section">
+		<div class="what-we-do-section-container">
 				<h2>What We Do</h2>
-					<img src="" title="Apple Products" alt="Apple Products">
-					<ul>
-						<li>New Device Setup & Installation</li>
-						<li>Disaster Recovery & Backup</li>
-						<li>Monitoring & Management</li>
-						<li>Troubleshooting & Break-fix</li>
-						<li>Networking, Firewalls, and WiFi</li>
-						<li>Virtual CIO</li>
+				<div class="what-we-do-section-content">
+					<img src="img/flat-apple-products.png" title="Apple Products" alt="Apple Products">
+					<ul class="what-we-do-section-content-list">
+						<li class="what-we-do-section-content-list-item">New Device Setup & Installation</li>
+						<li class="what-we-do-section-content-list-item">Disaster Recovery & Backup</li>
+						<li class="what-we-do-section-content-list-item">Monitoring & Management</li>
+						<li class="what-we-do-section-content-list-item">Troubleshooting & Break-fix</li>
+						<li class="what-we-do-section-content-list-item">Networking, Firewalls, and WiFi</li>
+						<li class="what-we-do-section-content-list-item">Virtual CIO</li>
 					</ul>
+				</div>
 		</div>
 	</section>
 
