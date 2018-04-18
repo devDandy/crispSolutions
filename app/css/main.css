@@ -182,4 +182,51 @@ img.crispSolutions-logo {
         background-size: contain; }
 
 /* Partners & Preferred Vendors */
-/* Get In Touch */
+.partners-section {
+  display: table;
+  margin: 0 auto;
+  border: 2px solid red;
+  text-align: center; }
+  .partners-section h2 {
+    padding: 25px;
+    background: #17324F;
+    color: white; }
+
+.partner-container {
+  width: 45%;
+  display: inline-block;
+  border: 2px solid blue;
+  text-align: left; }
+
+.partner {
+  width: 50%;
+  margin: 0 auto; }
+
+.partner-description {
+  font-family: "Inter UI";
+  font-size: 15px; }
+
+.partner-website {
+  font-family: "Archivo", sans-serif;
+  font-size: 20px;
+  font-weight: bold; }
+
+/* Get In Touch  | Contact */
+.contact-section {
+  border: 2px solid red;
+  padding: 0;
+  margin: 0; }
+
+.contact-section-info {
+  background-image: url("../img/contact-iphone2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50%;
+  padding: 0;
+  border: 2px solid red; }
+  .contact-section-info h2, .contact-section-info p {
+    color: white;
+    text-align: center; }
+  .contact-section-info p {
+    font-family: "Inter UI";
+    font-size: 16px; }

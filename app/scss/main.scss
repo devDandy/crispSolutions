@@ -67,6 +67,7 @@ $secondary-color: white;
 		color: $primary-color;
 	}
 
+
 /* Desktop Navigation */
 	.desktop-menu {
 		list-style-type: none;
@@ -233,4 +234,62 @@ $secondary-color: white;
 
 /* Partners & Preferred Vendors */
 
-/* Get In Touch */
+.partners-section {
+	display: table;
+	margin: 0 auto;
+	border: 2px solid red;
+	text-align: center;
+	h2 {
+		padding: 25px;
+		background: $primary-color;
+		color: white;
+	}
+}
+
+.partner-container {
+	width: 45%;
+	display: inline-block;
+	border: 2px solid blue;
+	text-align: left;
+}
+
+.partner {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.partner-description {
+	font-family: $secondary-font;
+	font-size: 15px;
+}
+.partner-website {
+	font-family: $primary-font;
+	font-size: 20px;
+	font-weight: bold ;
+}
+
+/* Get In Touch  | Contact */
+
+
+.contact-section {
+	border: 2px solid red;
+	padding: 0;
+	margin: 0;
+}
+
+.contact-section-info {
+	background-image: url("../img/contact-iphone2.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50%;
+	padding: 0;
+	border: 2px solid red;
+	h2, p {
+		color: white;
+		text-align: center;
+	}
+	p {
+		font-family: $secondary-font;
+		font-size: 16px;
+	}
+}

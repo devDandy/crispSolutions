@@ -83,7 +83,10 @@
 
 
 	<div class="partners-section">
+
+		<h2>Partners &amp; Preferred Vendors</h2>
 		<div class="partner-container">
+		<div class="partner">
 			<img src="" class="partner-logo" alt="Partner XXX" title="XXX">
 			<p class="partner-description">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -95,7 +98,9 @@
 			</p>
 			<p class="partner-website">Partner Website <span><img src=""></span></p>
 		</div>
+		</div>
 		<div class="partner-container">
+		<div class="partner">
 			<img src="" class="partner-logo" alt="Partner XXX" title="XXX">
 			<p class="partner-description">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -107,14 +112,17 @@
 			</p>
 			<p class="partner-website">Partner Website <span><img src=""></span></p>
 		</div>
+		</div>
+
+
 	</div>
-	<section>
-	<div class="contact-section">
+	<section class=" contact-section">
+	<div class="contact-section-info ">
 			<h2>Get In Touch</h2>
 			<p>
 			Need Help? Go Questions? Give us a call, or drop us a line. We promise we will get back to you in less than a business day.
 			</p>
-			<div class="contact-container">
+			<!---<div class="contact-container">
 				<div class="contact-form-container">
 					<form>
 						<label for="business">Business:</label>
@@ -162,8 +170,10 @@
 						<button>Request A Booking</button>
 					</div>
 				</div>
-			</div>
+			</div> -->
 	</div>
 </section>
+
+	<script src="js/micromodal.min.js"></script>
 </body>
 </html>
