@@ -195,6 +195,8 @@ img.crispSolutions-logo {
   .what-we-do-section-container h2 {
     text-align: center;
     margin-bottom: 15px; }
+  .what-we-do-section-container img {
+    width: 45%; }
 
 .what-we-do-section-content {
   background: rgba(23, 50, 79, 0.8);
@@ -238,7 +240,6 @@ img.crispSolutions-logo {
 .partner-container {
   width: 45%;
   display: inline-block;
-  border: 2px solid blue;
   text-align: left; }
 
 .partner {
@@ -256,7 +257,6 @@ img.crispSolutions-logo {
 
 /* Get In Touch  | Contact */
 .contact-section {
-  border: 2px solid red;
   padding: 0;
   margin: 0; }
 
@@ -264,10 +264,16 @@ img.crispSolutions-logo {
   background-image: url("../img/contact-iphone2.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 50%;
-  padding: 0; }
-  .contact-section-info h2, .contact-section-info p {
-    position: relative;
+  height: 65%;
+  padding: 0;
+  position: relative; }
+  .contact-section-info .contact-section-info-contents {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     color: white;
     text-align: center;
     z-index: 2; }
@@ -277,10 +283,49 @@ img.crispSolutions-logo {
 
 .contact-container {
   margin: 0 auto;
-  max-width: 950px; }
+  max-width: 950px;
+  background: #17324F;
+  -webkit-box-shadow: 0 20px 40px #2699FB;
+  box-shadow: 0 20px 40px #2699FB; }
 
-.col-8 {
-  background: red; }
+.contact-form-container {
+  background: white;
+  padding: 30px; }
+  .contact-form-container label {
+    display: block;
+    margin: 5px 5px 3px 5px;
+    font-family: "Inter UI";
+    font-size: 26px; }
+  .contact-form-container input[type="text"] {
+    width: 95%;
+    margin: 5px;
+    padding: 10px 15px;
+    border: 2px solid #17324F;
+    border-radius: 5px; }
+  .contact-form-container .col-6 {
+    padding-right: 3%; }
+  .contact-form-container textarea {
+    width: 95%;
+    height: 100%;
+    padding: 0 5px;
+    border: 2px solid #17324F;
+    border-radius: 5px;
+    font-family: "Inter UI";
+    font-size: 16px; }
 
-.col-4 {
-  background: blue; }
+.contact-form-btn-group {
+  text-align: center; }
+  .contact-form-btn-group .contact-form-btn {
+    margin-top: 15px;
+    padding: 15px 35px;
+    background-color: white;
+    border: 2px solid #17324F;
+    border-radius: 5px; }
+
+.contact-info h3 {
+  font-family: "Archivo", sans-serif;
+  color: white; }
+
+.contact-info p {
+  font-family: "Inter UI";
+  color: #7FC4FD; }

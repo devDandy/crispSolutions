@@ -13,6 +13,7 @@ $secondary-font: 'Inter UI';
 
 $primary-color: #17324F;
 $secondary-color: white;
+$accent-color: #7FC4FD;
 
 /* General */
  	* {
@@ -218,6 +219,9 @@ $secondary-color: white;
 			text-align: center;
 			margin-bottom: 15px;
 		}
+		img {
+			width: 45%;
+		}
 	}
 	.what-we-do-section-content {
 		background: rgba(23,50,79,0.8);
@@ -271,7 +275,6 @@ $secondary-color: white;
 .partner-container {
 	width: 45%;
 	display: inline-block;
-	border: 2px solid blue;
 	text-align: left;
 }
 
@@ -294,7 +297,6 @@ $secondary-color: white;
 
 
 .contact-section {
-	border: 2px solid red;
 	padding: 0;
 	margin: 0;
 }
@@ -303,10 +305,14 @@ $secondary-color: white;
 	background-image: url("../img/contact-iphone2.png");
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 50%;
+	height: 65%;
 	padding: 0;
-	h2, p {
-		position: relative;
+	position: relative;
+	.contact-section-info-contents {
+		position: absolute;
+		top: 35%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 		color: white;
 		text-align: center;
 		z-index: 2;
@@ -320,14 +326,59 @@ $secondary-color: white;
 .contact-container {
 	margin: 0 auto;
 	max-width: 950px;
+	background: $primary-color;
+	box-shadow: 0 20px 40px #2699FB;
+}
+
+.contact-form-container {
+	background:$secondary-color;
+	padding: 30px;
+	label {
+		display: block;
+		margin:5px 5px 3px 5px;
+		font-family: $secondary-font;
+		font-size: 26px;
+	}
+	input[type="text"] {
+		width: 95%;
+		margin: 5px;
+		padding: 10px 15px;
+		border: 2px solid $primary-color;
+		border-radius: 5px;
+	}
+	.col-6 {
+		// Aligns form field elements with 50% with other form field elements with different widths
+		padding-right: 3%;
+	}
+	textarea {
+		width: 95%;
+		height: 100%;
+		padding: 0 5px;
+		border:2px solid $primary-color;
+		border-radius: 5px;
+		font-family: $secondary-font;
+		font-size: 16px;
+	}
+}
+.contact-form-btn-group {
+	text-align: center;
+	.contact-form-btn {
+		 margin-top: 15px;
+		padding: 15px 35px;
+		background-color: $secondary-color;
+		border:2px solid $primary-color;
+		border-radius: 5px;
+	}
 
 }
 
-
-.col-8 {
-	background: red;
-}
-
-.col-4 {
-	background: blue;
+.contact-info {
+	h3 {
+		font-family: $primary-font;
+		color: white;
+	}
+	p {
+		font-family: $secondary-font;
+		color: $accent-color;
+	}
 }

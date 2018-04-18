@@ -118,10 +118,12 @@
 	</div>
 	<section class=" contact-section">
 	<div class="contact-section-info section-overlay ">
+		<div class="contact-section-info-contents">
 			<h2>Get In Touch</h2>
 			<p>
-			Need Help? Go Questions? Give us a call, or drop us a line. We promise we will get back to you in less than a business day.
+			Need Help? Got Questions? Give us a call, or drop us a line. We promise we will get back to you in less than a business day.
 			</p>
+		</div>
 	</div>
 
 
@@ -130,35 +132,50 @@
 					<div class="col-12">
 						<div class="row">
 							<div class="col-12">
-								<div class="col-8">
-									<form>
+								<div class="col-9">
+									<form class="contact-form-container">
 										<div>
-											<label for="Business">Business</label>
+											<label for="Business">Business:</label>
 											<input type="text" name="contactInBusiness">
 										</div>
 										<div>
-											<label for="Full Name">Full Name</label>
+											<label for="Full Name">Full Name:</label>
 											<input type="text" name="contactInName">
 										</div>
 										<div class="row">
 											<div class="col-6">
-												<label for="Email">Email</label>
-												<input type="text" name="contactInEmail">
+												<label for="Email">Email:</label>
+												<input type="text" name="contactInEmail" class="contact-form-fields-50">
 											</div>
 											<div class="col-6">
-												<label for="Phone">Phone</label>
-												<input type="text" name="contactInPhone">
+												<label for="Phone">Phone:</label>
+												<input type="text" name="contactInPhone" class="contact-form-fields-50">
 											</div>
 										</div>
 										<div>
-											<label for="Contact Message">Message</label>
+											<label for="Contact Message">Message:</label>
 										</div>
 										<textarea name="contactInPhone"></textarea>
+
+										<div class="contact-form-btn-group">
+											<input type="submit" name="contactSubmit" value="Submit" class="contact-form-btn">
+											<input type="reset" name="contactReset" value="Reset" class="contact-form-btn">
+										</div>
 									</form>
 								</div>
-								<div class="col-4">
-									<div class="testete">
-										hello world
+								<div class="col-3">
+									<div class="contact-info">
+										<h3>Address</h3>
+										<p>
+											3123 Holcomb Ave<br>
+											Des Moines, IA 50310<br>
+											USA
+										</p>
+										<h3>Email</h3>
+										<p>info@crispsolutions.net</p>
+										<h3>Phone</h3>
+										<p>(515) 423-0160 </p>
+										<h3>Social</h3>
 									</div>
 								</div>
 							</div>
