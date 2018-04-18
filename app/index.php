@@ -176,6 +176,10 @@
 										<h3>Phone</h3>
 										<p>(515) 423-0160 </p>
 										<h3>Social</h3>
+										<div class="social-media-icons">
+											<img src="icons/facebook.png">
+											<img src="icons/linkedin.png">
+										</div>
 									</div>
 								</div>
 							</div>

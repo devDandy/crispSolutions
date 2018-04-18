@@ -329,3 +329,7 @@ img.crispSolutions-logo {
 .contact-info p {
   font-family: "Inter UI";
   color: #7FC4FD; }
+
+.contact-info .social-media-icons {
+  width: 16px;
+  height: 16px; }
