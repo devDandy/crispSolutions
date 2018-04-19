@@ -21,11 +21,11 @@
 				<li><a href="#contact-section">Get In Touch</a></li>
 			</ul>
 		</nav>
-	<section>
+	<section class="home-section">
 
-		<div class="home-section">
-			<img src="img/header-mac.png" class="home-section-img" title="Apple Products">
-			<div class="home-section-info">
+		<div class="home-container">
+			<img src="img/header-mac.png" class="home-container-img" title="Apple Products">
+			<div class="home-container-info">
 				<img src="img/crisp-logo.png" class="crispSolutions-logo" title="Crisp Solutions" alt="Crisp Solutions">
 				<div class="lead"><p>When it just</p><p> needs to work.</p></div>
 			</div>
@@ -82,7 +82,7 @@
 
 
 
-	<div class="  partners-section">
+	<div class="partners-section">
 
 		<h2>Partners &amp; Preferred Vendors</h2>
 		<div class="partner-container">
@@ -155,7 +155,7 @@
 										<div>
 											<label for="Contact Message">Message:</label>
 										</div>
-										<textarea name="contactInPhone"></textarea>
+										<textarea rows="5" name="contactInMessage"></textarea>
 
 										<div class="contact-form-btn-group">
 											<input type="submit" name="contactSubmit" value="Submit" class="contact-form-btn">
@@ -165,20 +165,27 @@
 								</div>
 								<div class="col-3">
 									<div class="contact-info">
+
 										<h3>Address</h3>
 										<p>
 											3123 Holcomb Ave<br>
 											Des Moines, IA 50310<br>
 											USA
 										</p>
+
 										<h3>Email</h3>
 										<p>info@crispsolutions.net</p>
 										<h3>Phone</h3>
+
 										<p>(515) 423-0160 </p>
 										<h3>Social</h3>
 										<div class="social-media-icons">
-											<img src="icons/facebook.png">
-											<img src="icons/linkedin.png">
+											<img src="icons/facebook.png" alt="Facebook">
+											<img src="icons/linkedin.png" alt="LinkedIn">
+										</div>
+										<div class="request-btn-group">
+											<button class="request-btn">Request A Quote</button>
+											<button class="request-btn">Request A Booking</button>
 										</div>
 									</div>
 								</div>

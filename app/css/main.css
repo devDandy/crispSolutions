@@ -132,18 +132,18 @@ h2 {
     display: block; }
 
 /* Home Section */
-.home-section .home-section-info {
+.home-container .home-container-info {
   display: inline-block;
   padding-left: 25px;
   vertical-align: 60px; }
-  .home-section .home-section-info .lead {
+  .home-container .home-container-info .lead {
     padding-top: 25px; }
-    .home-section .home-section-info .lead p {
+    .home-container .home-container-info .lead p {
       margin: 0;
       font-size: 32px;
       line-height: 1.3; }
 
-img.home-section-img {
+img.home-container-img {
   width: 50%; }
 
 img.crispSolutions-logo {
@@ -165,7 +165,7 @@ img.crispSolutions-logo {
 
 .about-section-descriptions {
   font-family: "Inter UI";
-  font-size: 36px; }
+  font-size: 26px; }
 
 .about-section-knowledge {
   background-image: url("../img/about-knowledge.jpg");
@@ -243,7 +243,7 @@ img.crispSolutions-logo {
   text-align: left; }
 
 .partner {
-  width: 50%;
+  width: 70%;
   margin: 0 auto; }
 
 .partner-description {
@@ -282,11 +282,14 @@ img.crispSolutions-logo {
     font-size: 16px; }
 
 .contact-container {
+  position: relative;
+  top: -200px;
   margin: 0 auto;
   max-width: 950px;
   background: #17324F;
-  -webkit-box-shadow: 0 20px 40px #2699FB;
-  box-shadow: 0 20px 40px #2699FB; }
+  -webkit-box-shadow: 0 5px 10px #2699FB;
+  box-shadow: 0 5px 10px #2699FB;
+  z-index: 5; }
 
 .contact-form-container {
   background: white;
@@ -322,14 +325,71 @@ img.crispSolutions-logo {
     border: 2px solid #17324F;
     border-radius: 5px; }
 
-.contact-info h3 {
-  font-family: "Archivo", sans-serif;
-  color: white; }
+.contact-info {
+  padding: 50px 25px 0 25px; }
+  .contact-info h3 {
+    margin-top: 25px;
+    font-family: "Archivo", sans-serif;
+    color: white; }
+    .contact-info h3:first-child {
+      margin-top: 0; }
+  .contact-info p {
+    font-family: "Inter UI";
+    color: #7FC4FD; }
+  .contact-info .social-media-icons img {
+    width: 36px;
+    height: auto; }
+  .contact-info .request-btn-group {
+    margin-top: 35px; }
+  .contact-info .request-btn {
+    display: block;
+    width: 150px;
+    margin: 15px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #29628F;
+    font-family: "Inter UI";
+    color: #7FC4FD; }
 
-.contact-info p {
-  font-family: "Inter UI";
-  color: #7FC4FD; }
+@media only screen and (max-width: 1280px) {
+  .about-section p {
+    font-size: 20px; }
+  .partners-section h2 {
+    font-size: 65px;
+    /*Because the text was so damn big to begin with*/ }
+  h2 {
+    font-size: 85px; } }
 
-.contact-info .social-media-icons {
-  width: 16px;
-  height: 16px; }
+@media only screen and (max-width: 1208px) {
+  /*Contact text gets obscured by contact-container*/
+  .contact-container {
+    position: relative; }
+  .contact-section-info-contents {
+    width: 100%; }
+    .contact-section-info-contents h2 {
+      display: block; }
+    .contact-section-info-contents p {
+      width: 50%;
+      text-align: center;
+      margin: 0 auto; } }
+
+@media only screen and (max-width: 1006px) {
+  /*Home Section is more centered with images' width adjusted because otherwise it would look pretty wonky */
+  .home-section {
+    padding: 120px; }
+  img.home-container-img {
+    width: 55%; }
+  img.crispSolutions-logo {
+    width: 225px;
+    height: auto; }
+  /*'What We Do' section would break at this point so this fixes it*/
+  .what-we-do-section {
+    height: auto;
+    /* Gives the section more room otherwise it would spill onto the next section*/ }
+  .what-we-do-section-content {
+    text-align: center;
+    /* Centers the contents */ }
+  .what-we-do-section-content-list {
+    text-align: left;
+    /* Aligns the list to the left while still being centered */ } }
