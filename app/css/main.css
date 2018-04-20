@@ -186,7 +186,8 @@ img.crispSolutions-logo {
 .what-we-do-section {
   background-image: url("../img/what-we-do.png");
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  padding-left: 60px; }
 
 .what-we-do-section-container {
   position: relative;
@@ -244,7 +245,7 @@ img.crispSolutions-logo {
 
 .partner {
   width: 70%;
-  margin: 0 auto; }
+  margin: 25px auto; }
 
 .partner-description {
   font-family: "Inter UI";
@@ -393,3 +394,54 @@ img.crispSolutions-logo {
   .what-we-do-section-content-list {
     text-align: left;
     /* Aligns the list to the left while still being centered */ } }
+
+@media only screen and (max-width: 831px) {
+  /*Gets rid of image on smaller screens and then centers everthing in the home section*/
+  .home-container {
+    text-align: center;
+    padding-left: 0; }
+    .home-container .home-container-img {
+      display: none; }
+    .home-container img.crispSolutions-logo {
+      width: 315px;
+      height: auto; }
+  /*All headings font-sizes will decrease */
+  h2 {
+    font-size: 60px; }
+  .partners-section h2 {
+    font-size: 55px; } }
+
+@media only screen and (max-width: 815px) {
+  .contact-container {
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+  .contact-form-col {
+    width: 100%; }
+  .contact-info-col {
+    width: 100%;
+    text-align: center; } }
+
+@media only screen and (max-width: 700px) {
+  .contact-section-info {
+    /* height:65% is too much at this width so here. */
+    height: 45%;
+    background-color: red; }
+  .contact-container {
+    /*Makes sure the form container doesn't obsucre the contact section header's text*/
+    top: 0; }
+  .contact-section-info .contact-section-info-contents {
+    /* Centers the contents in the contact section header */
+    top: 50%; } }
+
+@media only screen and (max-height: 695px) {
+  /* Anything lower than 695px will hide the contact section header text */
+  .contact-container {
+    /*Makes sure the form container doesn't obsucre the contact section header's text*/
+    top: 0; } }
+
+@media only screen and (max-width: 650px) {
+  /* Anything lower than 695px will hide the contact section header text */
+  .partner-container {
+    /*Makes sure the form container doesn't obsucre the contact section header's text*/
+    width: 100%;
+    clear: both; } }

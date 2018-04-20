@@ -3,6 +3,7 @@
 <head>
 	<title>Crisp Solutions</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 		<nav>
@@ -132,7 +133,7 @@
 					<div class="col-12">
 						<div class="row">
 							<div class="col-12">
-								<div class="col-9">
+								<div class="col-9 contact-form-col">
 									<form class="contact-form-container">
 										<div>
 											<label for="Business">Business:</label>
@@ -163,7 +164,7 @@
 										</div>
 									</form>
 								</div>
-								<div class="col-3">
+								<div class="col-3 contact-info-col">
 									<div class="contact-info">
 
 										<h3>Address</h3>
