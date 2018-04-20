@@ -306,7 +306,7 @@ img.crispSolutions-logo {
     padding: 10px 15px;
     border: 2px solid #17324F;
     border-radius: 5px; }
-  .contact-form-container .col-6 {
+  .contact-form-container .contact-form-fields-half {
     padding-right: 3%; }
   .contact-form-container textarea {
     width: 95%;
@@ -322,9 +322,11 @@ img.crispSolutions-logo {
   .contact-form-btn-group .contact-form-btn {
     margin-top: 15px;
     padding: 15px 35px;
-    background-color: white;
+    background-color: #7FC4FD;
     border: 2px solid #17324F;
     border-radius: 5px; }
+    .contact-form-btn-group .contact-form-btn:hover {
+      cursor: pointer; }
 
 .contact-info {
   padding: 50px 25px 0 25px; }
@@ -354,7 +356,7 @@ img.crispSolutions-logo {
     color: #7FC4FD; }
 
 @media only screen and (max-width: 1280px) {
-  .about-section p {
+  .about-section-descriptions {
     font-size: 20px; }
   .partners-section h2 {
     font-size: 65px;
@@ -445,3 +447,42 @@ img.crispSolutions-logo {
     /*Makes sure the form container doesn't obsucre the contact section header's text*/
     width: 100%;
     clear: both; } }
+
+@media only screen and (max-width: 570px) {
+  .home-container .home-container-info {
+    padding-left: 0; }
+  .what-we-do-section-container img {
+    width: 75%; }
+  .what-we-do-section-content .what-we-do-section-content-list li {
+    font-size: 16px; }
+    .what-we-do-section-content .what-we-do-section-content-list li:before {
+      top: 2px;
+      width: 16px;
+      height: 16px; }
+  h2 {
+    font-size: 45px; }
+  .about-section-descriptions {
+    font-size: 18px; }
+  .contact-section-info-contents p {
+    width: 75%; } }
+
+@media only screen and (max-width: 475px) {
+  .home-section {
+    padding: 50px; }
+  .home-container img.crispSolutions-logo {
+    width: 250px; }
+  .about-section-descriptions {
+    font-size: 16px; }
+  .partners-section h2 {
+    font-size: 45px; }
+  .contact-form-fields-half {
+    width: 100%;
+    padding-right: 0; } }
+
+@media only screen and (max-width: 475px) {
+  .about-section {
+    width: 95%; }
+  .partners-section h2 {
+    font-size: 35px; }
+  .what-we-do-section {
+    padding: 25px; } }

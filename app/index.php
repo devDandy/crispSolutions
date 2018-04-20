@@ -144,13 +144,13 @@
 											<input type="text" name="contactInName">
 										</div>
 										<div class="row">
-											<div class="col-6">
+											<div class="col-6 contact-form-fields-half">
 												<label for="Email">Email:</label>
-												<input type="text" name="contactInEmail" class="contact-form-fields-50">
+												<input type="text" name="contactInEmail">
 											</div>
-											<div class="col-6">
+											<div class="col-6 contact-form-fields-half">
 												<label for="Phone">Phone:</label>
-												<input type="text" name="contactInPhone" class="contact-form-fields-50">
+												<input type="text" name="contactInPhone">
 											</div>
 										</div>
 										<div>
